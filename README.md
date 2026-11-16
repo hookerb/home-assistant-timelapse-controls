@@ -10,6 +10,9 @@ timlapse video.
 Even while experimenting with new settings, the timelapse images will remain 
 consistent until they are changed in the configuration file and app reset.
 
+## Timelapse demonstration
+https://github.com/user-attachments/assets/9a3bdf55-0a6d-4bb2-be7e-3415165a46b8
+
 ## How it works:
 Detect the presence of a trigger file to signal that a snapshot was requested. Warms
 up the camera with the desired settings and waits to allow the stream to stabilize.
