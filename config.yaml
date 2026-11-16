@@ -1,0 +1,42 @@
+name: TimeLapse Controls
+version: "1.1.0"
+slug: webcam_controls
+description: Configure webcam or camera settings
+arch:
+  - amd64
+startup: services
+boot: auto
+init: false
+devices:
+  - /dev/video0
+map:
+  - type: media
+    read_only: false
+options: 
+  device: /dev/video0
+  stream_name: seedlings_adjusted
+  go2rtc_host: homeassistant.local
+  go2rtc_port: 1984
+  timelapse_dir: /media/timelapse
+  timezone: America/Denver
+  warmup_seconds: 15
+  camera_controls:
+    focus_absolute: 102
+    zoom_absolute: 1
+    exposure_time_absolute: 40
+    gain: 0
+    sharpness: 50
+schema: 
+  device: str
+  stream_name: str
+  go2rtc_host: str
+  go2rtc_port: int
+  timelapse_dir: str
+  timezone: str
+  warmup_seconds: int(1,120)
+  camera_controls:
+    focus_absolute: int
+    zoom_absolute: int
+    exposure_time_absolute: int
+    gain: int
+    sharpness: int

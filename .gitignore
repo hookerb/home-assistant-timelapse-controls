@@ -1,0 +1,21 @@
+# Private testing config
+test/options.local.json
+**/options.local.json
+
+# HA runtime data
+options.json
+
+# Temporary Filers
+*.tmp
+*.log
+*.swp
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Local development
+.env
+.env.*
