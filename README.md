@@ -44,7 +44,7 @@ The settings below are required to be set in the configuration tab of the app.
   - white_balance_automatic
   - auto_exposure__
   - exposure_time_absolute: the shutter duration (ms) Lower values reduce motion blur,
-    higher values let in more light.URL="http://192.168.50.171:1984/api/frame.jpeg?src=seedlings_adjusted"
+    higher values let in more light.
   - gain: Amplifies the camera sensor's electronic signal to brighten the image in low
     light, often increasing visual gain/noise.
   - sharpness: Enhances edge contrast to make the image appear crisper (high values
