@@ -14,7 +14,7 @@ consistent until they are changed in the configuration file and app reset.
 Detect the presence of a trigger file to signal that a snapshot was requested. Warms
 up the camera with the desired settings and waits to allow the stream to stabilize.
 
-Using a seperate HA automation to creat thge trigger file on a desired schedule, this
+Using a seperate HA automation to create the trigger file on a desired schedule, this
 app will detect the file, take the snapshot, remove the file, then wait for the next
 request.
 
@@ -30,7 +30,7 @@ The settings below are required to be set in the configuration tab of the app.
 - stream_name - The name of the stream
 - go2rtc_port - The port where the stream is accessible from (e.g. 1984)
 - timelapse_dir - The location to store the captured images
-- timezone - The TZ info to use for the timestamps on the images (e.g. Americas/Denver)
+- timezone - The TZ info to use for the timestamps on the images (e.g. America/Denver)
 - warmup_seconds - The number of seconds to wait for the camera to stabilize before
    the next image is collected.  This is to stabilize the image due to movement or 
    settings being applied per camera_control section.
