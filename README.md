@@ -11,7 +11,8 @@ Even while experimenting with new settings, the timelapse images will remain
 consistent until they are changed in the configuration file and app reset.
 
 ## Timelapse demonstration
-https://github.com/user-attachments/assets/9a3bdf55-0a6d-4bb2-be7e-3415165a46b8
+https://github.com/user-attachments/assets/d527546c-9248-451d-9d5a-4070d99fd1f6
+#  https://github.com/user-attachments/assets/9a3bdf55-0a6d-4bb2-be7e-3415165a46b8
 
 ## How it works:
 Detect the presence of a trigger file to signal that a snapshot was requested. Warms
